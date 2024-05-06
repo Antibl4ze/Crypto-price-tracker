@@ -1,0 +1,31 @@
+name,data_change,values
+Bitcoin,quote.USD.percent_change_1h,-0.13646487
+Bitcoin,quote.USD.percent_change_24h,0.73634376
+Bitcoin,quote.USD.percent_change_7d,-2.15708498
+Ethereum,quote.USD.percent_change_1h,0.2705827
+Ethereum,quote.USD.percent_change_24h,5.01259414
+Ethereum,quote.USD.percent_change_7d,5.03315108
+Tether USDt,quote.USD.percent_change_1h,-0.0037280999999999994
+Tether USDt,quote.USD.percent_change_24h,-0.00788004
+Tether USDt,quote.USD.percent_change_7d,-0.06909736
+BNB,quote.USD.percent_change_1h,-0.07083988
+BNB,quote.USD.percent_change_24h,1.97621279
+BNB,quote.USD.percent_change_7d,4.8903403
+Solana,quote.USD.percent_change_1h,-0.3327105
+Solana,quote.USD.percent_change_24h,2.2120018
+Solana,quote.USD.percent_change_7d,-5.32885859
+USDC,quote.USD.percent_change_1h,-0.00599795
+USDC,quote.USD.percent_change_24h,-0.00980985
+USDC,quote.USD.percent_change_7d,-0.00655698
+XRP,quote.USD.percent_change_1h,-0.20094850000000003
+XRP,quote.USD.percent_change_24h,0.31007139
+XRP,quote.USD.percent_change_7d,-1.41934759
+Dogecoin,quote.USD.percent_change_1h,-0.3408443
+Dogecoin,quote.USD.percent_change_24h,2.22799087
+Dogecoin,quote.USD.percent_change_7d,-6.42061657
+Toncoin,quote.USD.percent_change_1h,0.09778964
+Toncoin,quote.USD.percent_change_24h,4.11752143
+Toncoin,quote.USD.percent_change_7d,-10.6681413
+Cardano,quote.USD.percent_change_1h,-0.42974102
+Cardano,quote.USD.percent_change_24h,1.9602681500000003
+Cardano,quote.USD.percent_change_7d,-5.91831587
