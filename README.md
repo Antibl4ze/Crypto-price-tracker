@@ -1,9 +1,17 @@
-📊 Data Retrieval: I have fetched real-time data on the top 10 cryptocurrencies using the CoinMarketCap API. This data will include a number of metrics such as price, market cap, and percent changes over various timeframes.
+# Crypto Price Tracker (Python)
 
-🔗 Data Normalization and Storage: The retrieved data was normalized using Pandas into a structured format, which was then stored in a CSV file. The intention here is data quality and ease of analysis and visualization later.
+A Python script that pulls live data for the top 10 cryptocurrencies from the CoinMarketCap API, stores it over time and compares price changes.
 
-🎨 Data Visualization: I created a set of visualizations using Seaborn and Matplotlib. This will highlight a lot of the key patterns and trends in cryptocurrency performances over an hour, a day, and a week.
+## What it does
+- Calls the CoinMarketCap API and flattens the JSON response with pandas
+- Adds a timestamp and appends each run to a CSV file
+- Calculates the average 1-hour, 24-hour and 7-day percentage change per coin
+- Plots the changes with Seaborn and Matplotlib
 
-📈 Statistical Analysis: It then applies various statistical methods to help gain insight into the average percentage changes of such cryptocurrencies, useful in understanding the state of trends.
+## How to run
+1. Get a free API key from coinmarketcap.com
+2. Set it as an environment variable: `CMC_API_KEY=your_key`
+3. Run `Code.py`
 
-📝 Conclusion: This is a project explaining how to analyze and visualize cryptocurrency data. It further prepared me in handling and presenting data, so that even very intricate analyses may be passed on in an easily understandable form.
+## Tools
+Python, pandas, requests, Seaborn, Matplotlib

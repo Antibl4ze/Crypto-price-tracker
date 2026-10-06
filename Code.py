@@ -1,3 +1,4 @@
+import os
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
@@ -11,7 +12,7 @@ parameters = {
 }
 headers = {
   'Accepts': 'application/json',
-  'X-CMC_PRO_API_KEY': 'c27a7d7a-e9db-4834-8966-e531a4ccca53',
+  'X-CMC_PRO_API_KEY': os.environ['CMC_API_KEY'],
 }
 
 session = Session()
@@ -58,7 +59,7 @@ def api_auto_runner():
     }
     headers = {
       'Accepts': 'application/json',
-      'X-CMC_PRO_API_KEY': 'c27a7d7a-e9db-4834-8966-e531a4ccca53',
+      'X-CMC_PRO_API_KEY': os.environ['CMC_API_KEY'],
     }
 
     session = Session()
